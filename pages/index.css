@@ -6,13 +6,22 @@
 @import url(../blocks/header/__button/_type/header__button_type_delete.css);
 
 @import url(../blocks/root/__to-do/root__to-do.css);
-
-@import url(../blocks/root/__to-do/root__to-do.css);
 @import url(../blocks/to-do/to-do.css);
 @import url(../blocks/to-do/__title/to-do__title.css);
 @import url(../blocks/to-do/__subtitle/to-do__subtitle.css);
 @import url(../blocks/to-do/__list/to-do__list.css);
 @import url(../blocks/to-do/__form/to-do__form.css);
 @import url(../blocks/to-do/__item/to-do__item.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/_type/form__input_type_task.css);
+@import url(../blocks/form/__input-error/form__input-error.css);
+@import url(../blocks/form/__input-error/_type/form__input-error_type_task.css);
+@import url(../blocks/form/__input-error/_active/form__input-error_active.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__button/_type/form__button_type_add-task.css);
+@import url(../blocks/form/__button/_inactive/form__button_inactive.css);
 
 @import url(../blocks/root/__footer/root__footer.css);
