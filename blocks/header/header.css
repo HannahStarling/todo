@@ -1,0 +1,22 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  padding: 5vh 0 0;
+  background-image: -o-radial-gradient(
+    center top,
+    50% 50% ellipse,
+    #ffffff 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-image: radial-gradient(
+    50% 50% ellipse at center top,
+    #ffffff 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}

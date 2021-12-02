@@ -1,6 +1,9 @@
 @import url(../blocks/root/root.css);
 
 @import url(../blocks/root/__header/root__header.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button/_type/header__button_type_delete.css);
 
 @import url(../blocks/root/__to-do/root__to-do.css);
 
