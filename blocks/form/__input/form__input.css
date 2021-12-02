@@ -12,6 +12,7 @@
   font-size: 1.5em;
   padding: 2vh;
   border: none;
+  outline: 0.1em solid black;
 }
 
 .form__input::placeholder {

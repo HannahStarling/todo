@@ -8,3 +8,8 @@
   line-height: 1em;
   width: 100%;
 }
+
+.form__button:disabled:hover {
+  opacity: 1;
+  cursor: auto;
+}
