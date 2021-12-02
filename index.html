@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  meta -->
+    <title>TO-DO LIST</title>
+    <meta
+      name="description"
+      content="to-do list on es6, witn animations and decorations in pure css"
+    />
+    <meta name="keywords" content="to-do, adaptive, gradient" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <!-- content -->
+  <body class="root">
+    <header class="header root__header">
+      <button
+        class="button header__button header__button_type_delete interactive"
+      >
+        Clear to-do
+      </button>
+      <button
+        class="button header__button header__button_type_theme interactive"
+      >
+        Lightmode
+      </button>
+    </header>
+    <main class="to-do root__to-do">
+      <h1 class="to-do__title">to-do list</h1>
+      <p class="to-do__subtitle">by Hannah</p>
+      <form class="form to-do__form" id="task-form" name="task" novalidate>
+        <label for="task" class="form__label">
+          <input
+            type="text"
+            class="form__input form__input_type_task"
+            name="task"
+            id="task"
+            placeholder="any task"
+            minlength="5"
+            maxlength="40"
+            autocomplete="off"
+            required
+          />
+          <span class="form__input-error form__input-error_type_task"></span>
+        </label>
+        <button
+          class="button form__button form__button_type_add-task interactive"
+          type="submit"
+          disabled
+        >
+          add task
+        </button>
+      </form>
+      <ol class="to-do__list"></ol>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>
