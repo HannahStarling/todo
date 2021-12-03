@@ -7,5 +7,7 @@ const settings = {
   errorClass: 'form__input-error_active',
 };
 const form = document.querySelector('.form');
+const mode = document.querySelector('.mode');
+const themeButton = document.querySelector('.header__button_type_theme');
 
-export { settings, form };
+export { settings, form, mode, themeButton };
