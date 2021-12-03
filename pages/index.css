@@ -1,5 +1,6 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/interactive/interactive.css);
+@import url(../blocks/gradient/gradient.css);
 
 /* header */
 @import url(../blocks/root/__header/root__header.css);
