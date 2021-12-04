@@ -5,3 +5,9 @@
   font-weight: 900;
   line-height: 1;
 }
+
+@media all and (min-width: 768px) {
+  .to-do__title {
+    font-size: 7vw;
+  }
+}

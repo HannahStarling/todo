@@ -6,3 +6,9 @@
   line-height: 1;
   max-width: 90%;
 }
+
+@media all and (min-width: 768px) {
+  .to-do__subtitle {
+    font-size: 3vw;
+  }
+}

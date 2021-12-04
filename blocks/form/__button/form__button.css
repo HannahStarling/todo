@@ -1,11 +1,4 @@
 .form__button {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-
-  line-height: 1;
-  border: none;
-  border-radius: 1em;
-  padding: 2vh;
   width: 100%;
 }
 

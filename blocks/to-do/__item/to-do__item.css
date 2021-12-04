@@ -13,7 +13,7 @@
   list-style: none;
   counter-increment: task;
   content: '#' counter(task);
-  padding: 1em;
+  padding: 2vh;
   margin-right: 2vh;
   line-height: 1;
   font-weight: bold;
@@ -22,4 +22,15 @@
 
 .to-do__item::marker {
   content: none;
+}
+
+@media all and (min-width: 768px) {
+  .to-do__item {
+    padding: 2vw 2vw 2vw 0;
+    font-size: 2vw;
+  }
+
+  .to-do__item::before {
+    padding: 2vw;
+  }
 }
