@@ -10,10 +10,13 @@
   flex-direction: column;
   justify-items: center;
   gap: 2vh;
+<<<<<<< HEAD
 }
 
 @media all and (min-width: 768px) {
   .to-do {
     gap: 2vw;
   }
+=======
+>>>>>>> b67585bae9add616dfaaa8d582340643fcec6fdb
 }
