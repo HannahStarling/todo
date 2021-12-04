@@ -103,20 +103,14 @@
 
 .form__input::-moz-placeholder {
   color: rgb(251, 127, 113);
-
-  line-height: 1;
 }
 
 .form__input:-ms-input-placeholder {
   color: rgb(251, 127, 113);
-
-  line-height: 1;
 }
 
 .form__input::placeholder {
   color: rgb(251, 127, 113);
-
-  line-height: 1;
 }
 
 .form__input_type_task {
