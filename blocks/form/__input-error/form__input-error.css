@@ -8,13 +8,10 @@
   -o-transition: 0.3s;
   transition: 0.3s;
   font-size: 1.5vh;
-<<<<<<< HEAD
 }
 
 @media all and (min-width: 768px) {
   .form__input-error {
     font-size: 2vw;
   }
-=======
->>>>>>> b67585bae9add616dfaaa8d582340643fcec6fdb
 }
