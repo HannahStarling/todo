@@ -1,6 +1,5 @@
 .to-do__item {
-  font-size: 1.5em;
-  padding: 1em 1em 1em 0;
+  padding: 2vh 2vh 2vh 0;
   background: transparent;
   border: none;
   border-radius: 3px;
@@ -15,9 +14,9 @@
   counter-increment: task;
   content: '#' counter(task);
   padding: 1em;
-  margin-right: 12px;
+  margin-right: 2vh;
+  line-height: 1;
   font-weight: bold;
-  font-size: 1em;
   background: transparent;
 }
 

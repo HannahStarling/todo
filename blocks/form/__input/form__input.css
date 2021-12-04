@@ -2,33 +2,37 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  font-size: 1.5em;
+
   padding: 2vh;
   border: none;
   border-radius: 1em;
 }
 
 .form__input:focus {
-  font-size: 1.5em;
+
   padding: 2vh;
   border: none;
   outline: 0.1em solid black;
 }
 
 .form__input::placeholder {
-  font-size: 1em;
+
+  line-height: 1;
 }
 
 /* Edge */
 .form__input::-webkit-input-placeholder {
-  font-size: 1em;
+
+  line-height: 1;
 }
 
 /* Internet Explorer 10-11 */
 .form__input:-ms-input-placeholder {
-  font-size: 1em;
+
+  line-height: 1;
 }
 
 .form__input::-moz-placeholder {
-  font-size: 1em;
+
+  line-height: 1;
 }
