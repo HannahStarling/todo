@@ -13,7 +13,7 @@
   list-style: none;
   counter-increment: task;
   content: '#' counter(task);
-  padding: 2vh;
+  padding: 1.5vh;
   margin-right: 2vh;
   line-height: 1;
   font-weight: bold;
@@ -31,6 +31,6 @@
   }
 
   .to-do__item::before {
-    padding: 2vw;
+    padding: 1.5vw;
   }
 }
