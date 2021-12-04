@@ -2,13 +2,13 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  padding: 2vh;
+  padding: 1.5vh;
   border: none;
   border-radius: 1em;
 }
 
 .form__input:focus {
-  padding: 2vh;
+  padding: 1.5vh;
   border: none;
   outline: 0.1em solid black;
 }
@@ -33,12 +33,12 @@
 
 @media all and (min-width: 768px) {
   .form__input {
-    padding: 2vw;
+    padding: 1.5vw;
     font-size: 2vw;
   }
 
   .form__input:focus {
-    padding: 2vw;
+    padding: 1.5vw;
     font-size: 2vw;
   }
 }
