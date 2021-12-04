@@ -1,9 +1,10 @@
 export class Task {
-  constructor(container) {
+  constructor(container, clearButton) {
     this._container = container;
     this._commentList = container.querySelector('ol');
     this._input = container.querySelector('input');
     this._form = container.querySelector('form');
+    this._clearButton = clearButton;
   }
 
   _createTask() {
@@ -20,9 +21,19 @@ export class Task {
     this._input.value = '';
   }
 
+  _clearAllTask() {
+    while (this._commentList.firstChild) {
+      this._commentList.removeChild(this._commentList.lastChild);
+    }
+  }
+
   _setEventListeners() {
     this._form.addEventListener('submit', (e) => {
       this._appendTask(e);
+    });
+
+    this._clearButton.addEventListener('click', () => {
+      this._clearAllTask();
     });
   }
 

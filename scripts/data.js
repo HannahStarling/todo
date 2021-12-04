@@ -9,5 +9,6 @@ const settings = {
 const form = document.querySelector('.form');
 const mode = document.querySelector('.mode');
 const themeButton = document.querySelector('.header__button_type_theme');
+const clearButton = document.querySelector('.header__button_type_clear');
 
-export { settings, form, mode, themeButton };
+export { settings, form, mode, themeButton, clearButton };
