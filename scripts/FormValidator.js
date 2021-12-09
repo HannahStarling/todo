@@ -54,6 +54,13 @@ export class FormValidator {
     this._button.classList.toggle(this._inactiveButtonClass, this._isInvalid());
   }
 
+  _handleOverlayClick(evt) {
+    if (evt.target !== evt.currentTarget) {
+      this.resetError();
+    }
+    return;
+  }
+
   _setEventListeners() {
     this._toggleButton();
     this._inputs.forEach((input) => {
@@ -66,9 +73,28 @@ export class FormValidator {
     this._form.addEventListener('submit', () => {
       this._disableButton();
     });
+
+    document.addEventListener('click', (evt) => {
+      this._handleOverlayClick(evt);
+    });
   }
 
   enableValidation() {
     this._setEventListeners();
+  }
+
+  disableButton() {
+    this._button.disabled = true;
+    this._button.classList.add(this._inactiveButtonClass);
+  }
+
+  resetError() {
+    this._inputs.forEach((input) => {
+      if (input.matches(`.${this._inputErrorClass}`)) {
+        input.classList.remove(this._inputErrorClass);
+        const error = this._searchInputError(input);
+        error.classList.remove(this._errorClass);
+      }
+    });
   }
 }
